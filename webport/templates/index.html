@@ -1,0 +1,159 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <link rel="StyleSheet" type="text/css" href="{% static 'index.css' %}">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">-->
+</head>
+<body>
+    <br>
+    <div class="resume">
+        <div class="column">
+            <section class='profile'>
+                <h1>Karthikeyan PCP</h1>
+                <p>Chubb Intern</p>
+                <img src="{% static 'image.jpeg' %}" height=50% width=50% alt='' >
+            
+            </section>
+            
+            <section class='contact'>
+                <h2>Contact</h2>
+                <ul>
+                    <li>H-43 Rm Colony 6th street,Dindigul </li>
+                    <li>karthi268004@gmail.com</li>
+                    <li>(+91) 8072512928</li>
+                    <li><a href='https://www.linkedin.com/in/karthikeyan-pcp-921942212'>Linkedin</a></li>
+                    <li><a href='https://karthikeyan-pcp.medium.com'>Medium</a></li>
+                </ul>
+            </section>
+            
+            <section class='objective'>
+                <h2>Objective</h2>
+                <p>Seeking a position , Where I can apply my skills and knowledge for the development of an organization . And construct myself to be flexible in learning new tools and skills.</p>
+            </section>
+            
+            <section class='tech'>
+               <h2>Technical skills</h2>
+                <ul>
+                        <li>Python</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>C Programming</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>OOPS</li>
+
+                        
+                </ul>
+            </section>
+            
+           <!--<section class='soft'>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Self Learner</li>
+                    <li>Good listener</li>
+                    <li>Responsible</li>
+                </ul>
+            </section> -->
+
+        </div>
+        <div class='column'>
+            <section class='education'>
+                <h2>Education</h2>
+                <ul class='timeline'>
+                    <li class='event'>
+                        <span class="duration">2018 - 2022</span>
+                        <div class='content'>
+                            <h3>B.E Computer Science Engineering</h3>
+                            <p><em>PSNA College of Engineering and Technology</em></p>
+                            <p>CGPA : 7.6</p>
+                        </div>
+                        
+                    </li>
+                    <li class='event'>
+                        <span class="duration">2016 - 2018</span>
+                        <div class='content'>
+                            <h3>HSC</h3>
+                            <p><em> Junior College</em></p>
+                            <p>percentage: 79</p>
+                        </div>
+                        
+                    </li>
+                    <li class='event'>
+                        <span class="duration">2015 - 2016</span>
+                        <div class='content'>
+                            <h3>SSLC</h3>
+                            <p><em>Shri Maharishi Vidya Mandir</em></p>
+                            <p>CGPA : 9.1</p>
+                        </div>
+                    </li>
+            
+            
+                </ul>
+            </section>
+            
+            
+            <section class='Experience'>
+                <h2>Experience</h2>
+                <ul class="timeline">
+                    <li class='event'>
+                        <span class='duration'>2021</span>
+                        <div class='content'>
+                            <h4 style="color: salmon;">Machine Learning with DevOps</h4>
+                            <p><em>&nbsp &nbsp &nbsp &nbsp LinuxWorld Informatics Pvt Ltd</em></p>
+                            <h4 style="color: salmon; padding-top: 1rem;">Technologies Involved</h4>
+                            <ul>
+                                <li style="padding-top: 0.5rem;"> Machine Learning</li>
+                                <li>Jenkins</li>
+                                <li>Kubernetes</li>
+                                <li>Cloud Computing(AWS)</li>
+                                <li>Deep Learning</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            
+            <section class="Project">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <h4 style="color: salmon; text-decoration: underline;">Library Management System</h4>
+                        <br>
+                        <p>&nbsp Created a library Manager with python,Postgres,JSON and REGEX</p>
+                        
+                    </li>
+                    <li>
+                        <h4 style="color: salmon; text-decoration: underline;">Online Portfolio</h4>
+                        <br>
+                        <p>&nbsp Created Resume using HTML,CSS and Django</p>
+                    </li>
+                    <li>
+                        <h4 style="color: salmon; text-decoration: underline;">Face Recognition model</h4>
+                        <br>
+                        <p>&nbsp Trained a model using LBPH and Haar Cascade Algorithm</p>
+                    </li>
+                    <li>
+                        <h4 style="color: salmon; text-decoration: underline;">Appartment Management System</h4>
+                        <br>
+                        <p>&nbsp Created an Appartment management system with python 
+                        </p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+    </div>
+  </body>
+</html>
+   
+    
+    
